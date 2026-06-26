@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "transcript": "Agent: Welcome to JSON tech support.\nCustomer: Hi, my API is returning a 500 error.\nAgent: Let me check the server logs for you.\nCustomer: It started happening after the new deployment 10 minutes ago.\nAgent: Ah, I see the issue. The new deployment has a typo in the database connection string. Rolling it back now."
+  },
+  {
+    "id": 2,
+    "transcript": "Agent: Hello, billing department.\nCustomer: I was double charged this month.\nAgent: I apologize for that. Let me look up your account. Yes, I see two identical charges of $49.99. I am processing a refund for one of them right now.\nCustomer: Thank you, how long will it take?\nAgent: It should appear on your statement in 3-5 business days."
+  }
+]

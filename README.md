@@ -32,6 +32,12 @@ Open `.env` and add your API keys. You can generate free API keys at:
 - GitHub Models: [https://github.com/settings/tokens](https://github.com/settings/tokens)
 - Gemini API: [https://aistudio.google.com/app/apikey](https://aistudio.google.com/app/apikey)
 
+### 3. Choose your Data Source
+In `.env`, you can set `DATA_SOURCE` to determine where the transcript comes from:
+- `manual` (default): Uses a hardcoded string in `main.py`.
+- `json`: Loads from `data.json`.
+- `database`: Loads from a local SQLite database (`test.db`). If none exists, it will automatically create and populate one with a sample transcript!
+
 ## Testing Models
 
 To test a specific model, modify your `.env` file to set the `AI_PROVIDER` and the corresponding model variable, then run the script.
